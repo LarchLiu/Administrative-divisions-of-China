@@ -5,7 +5,7 @@
   "main": "lib/export.js",
   "scripts": {
     "test": "eslint . && mocha -t 5000",
-    "fetch": "node lib/fetch.js code=1504",
+    "fetch": "node lib/fetch.js code=150422,150423,150426,150926",
     "csv": "./export_csv.sh",
     "json": "./export_json.sh",
     "format": "node lib/build.js",
