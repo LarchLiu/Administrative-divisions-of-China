@@ -1,3 +1,6 @@
+添加五级联动数据，去除 village 级的非乡村级的镇内社区数据，删除 village 级的居委会村委会等字样。
+如果按某省某市获取数据，请更改 package.json scripts 中的 fetch 项，添加所需省或市的划分代码如：内蒙古 添加 code=15，赤峰市 添加 code=1504
+
 # Administrative-divisions-of-China
 
 [![code style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
